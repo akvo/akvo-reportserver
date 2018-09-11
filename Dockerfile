@@ -6,7 +6,7 @@ WORKDIR /tmp
 
 RUN set -ex; \
     apt-get update && apt-get install -y --no-install-recommends unzip && \
-    curl -L -o rs.zip \
+    curl --location --output rs.zip \
     "https://sourceforge.net/projects/dw-rs/files/bin/3.0/${VERSION}.zip/download" && \
     unzip rs.zip -d rs && \
     rm -rf rs.zip && \
@@ -15,5 +15,6 @@ RUN set -ex; \
 
 FROM tomcat:7-jre8
 
-COPY --from=downloader /tmp/rs /usr/local/tomcat/webapps/ROOT/
+COPY --from=downloader /tmp/rs "${CATALINA_HOME}/webapps/reportserver/"
+
 COPY run.sh /opt/run.sh

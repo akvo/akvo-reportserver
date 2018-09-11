@@ -1,6 +1,6 @@
 version: "3"
 services:
-  postgres:
+  db:
     image: postgres:9.6
     environment:
       - POSTGRES_USER=reportserver
@@ -10,8 +10,7 @@ services:
       - ./schema:/docker-entrypoint-initdb.d:ro
   report-server:
     build: .
-    ports:
       - "8080:8080"
     depends_on:
-      - postgres
+      - db
     command: /opt/run.sh
