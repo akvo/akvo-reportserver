@@ -8,6 +8,8 @@ services:
       - POSTGRES_DB=reportserver
     volumes:
       - ./schema:/docker-entrypoint-initdb.d:ro
+    ports:
+      - "5432:5432"
   report-server:
     build: .
     ports:
