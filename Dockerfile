@@ -1,6 +1,7 @@
 FROM buildpack-deps:curl as downloader
 
 ARG VERSION=RS3.0.4-6004-2018-08-27-10-01-33-reportserver-ce
+ARG SHA256=2a0759e798e827a76af4b4ad9a36f405ba8dad251700e03119b89c374f9459f4
 
 WORKDIR /tmp
 
@@ -10,6 +11,7 @@ RUN set -eux; \
     unzip=6.0-21 && \
     curl --retry 3 --location --output rs.zip \
     "https://sourceforge.net/projects/dw-rs/files/bin/3.0/${VERSION}.zip/download" && \
+    echo "${SHA256}" rs.zip | sha256sum -c && \
     unzip -q rs.zip -d rs && \
     rm -rf rs.zip && \
     rm -rf /tmp/rs/__MACOSX && \
