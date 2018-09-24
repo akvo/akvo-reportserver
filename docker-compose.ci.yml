@@ -2,8 +2,8 @@ version: "3"
 services:
   report-server:
     image: akvo/akvo-reportserver:latest
-    ports:
-      - "8080:8080"
     depends_on:
       - db
     command: /opt/run.sh
+    volumes:
+      - /tmp/reportserver:/tmp
