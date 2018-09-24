@@ -7968,6 +7968,174 @@ COPY public.rs_audit_log_entry (entity_id, action, date_field, user_id, entity_v
 5331	MAINTENANCE_JOB_ENDED	2018-09-19 14:16:52.466	\N	0
 5335	MAINTENANCE_JOB_STARTED	2018-09-19 14:16:52.467	\N	0
 5339	MAINTENANCE_JOB_ENDED	2018-09-19 14:16:52.482	\N	0
+5343	REPORTSERVER_STARTUP	2018-09-24 10:48:21.275	\N	0
+5346	MAINTENANCE_JOB_STARTED	2018-09-24 10:48:58.275	\N	0
+5350	MAINTENANCE_JOB_ENDED	2018-09-24 10:48:58.314	\N	0
+5354	MAINTENANCE_JOB_STARTED	2018-09-24 10:48:58.326	\N	0
+5358	MAINTENANCE_JOB_ENDED	2018-09-24 10:48:58.506	\N	0
+5362	MAINTENANCE_JOB_STARTED	2018-09-24 10:48:58.509	\N	0
+5366	MAINTENANCE_JOB_ENDED	2018-09-24 10:48:58.51	\N	0
+5370	MAINTENANCE_JOB_STARTED	2018-09-24 10:48:58.513	\N	0
+5374	MAINTENANCE_JOB_ENDED	2018-09-24 10:48:58.57	\N	0
+5378	SCHEDULER_START	2018-09-24 10:50:58.359	\N	0
+5380	SCHEDULER_STARTED	2018-09-24 10:50:58.367	\N	0
+5382	MAINTENANCE_JOB_STARTED	2018-09-24 10:58:58.58	\N	0
+5386	MAINTENANCE_JOB_ENDED	2018-09-24 10:58:58.583	\N	0
+5390	MAINTENANCE_JOB_STARTED	2018-09-24 10:58:58.585	\N	0
+5394	MAINTENANCE_JOB_ENDED	2018-09-24 10:58:58.599	\N	0
+5398	MAINTENANCE_JOB_STARTED	2018-09-24 10:58:58.601	\N	0
+5402	MAINTENANCE_JOB_ENDED	2018-09-24 10:58:58.602	\N	0
+5406	MAINTENANCE_JOB_STARTED	2018-09-24 10:58:58.607	\N	0
+5410	MAINTENANCE_JOB_ENDED	2018-09-24 10:58:58.633	\N	0
+5414	MAINTENANCE_JOB_STARTED	2018-09-24 11:08:58.635	\N	0
+5418	MAINTENANCE_JOB_ENDED	2018-09-24 11:08:58.639	\N	0
+5422	MAINTENANCE_JOB_STARTED	2018-09-24 11:08:58.645	\N	0
+5426	MAINTENANCE_JOB_ENDED	2018-09-24 11:08:58.661	\N	0
+5430	MAINTENANCE_JOB_STARTED	2018-09-24 11:08:58.663	\N	0
+5434	MAINTENANCE_JOB_ENDED	2018-09-24 11:08:58.663	\N	0
+5438	MAINTENANCE_JOB_STARTED	2018-09-24 11:08:58.664	\N	0
+5442	MAINTENANCE_JOB_ENDED	2018-09-24 11:08:58.686	\N	0
+5446	INIT_SESSION	2018-09-24 11:12:55.904	\N	0
+5447	REPORT_EXECUTION	2018-09-24 11:12:56.027	3948	0
+5453	BEGIN_REPORT_EXECUTION	2018-09-24 11:12:56.058	3948	0
+5456	END_REPORT_EXECUTION	2018-09-24 11:13:10.503	3948	0
+5460	MAINTENANCE_JOB_STARTED	2018-09-24 11:18:58.694	\N	0
+5464	MAINTENANCE_JOB_ENDED	2018-09-24 11:18:58.719	\N	0
+5468	MAINTENANCE_JOB_STARTED	2018-09-24 11:18:58.72	\N	0
+5472	MAINTENANCE_JOB_ENDED	2018-09-24 11:18:58.819	\N	0
+5476	MAINTENANCE_JOB_STARTED	2018-09-24 11:18:58.829	\N	0
+5480	MAINTENANCE_JOB_ENDED	2018-09-24 11:18:58.829	\N	0
+5484	MAINTENANCE_JOB_STARTED	2018-09-24 11:18:58.832	\N	0
+5488	MAINTENANCE_JOB_ENDED	2018-09-24 11:18:58.999	\N	0
+5492	MAINTENANCE_JOB_STARTED	2018-09-24 11:28:59.004	\N	0
+5496	MAINTENANCE_JOB_ENDED	2018-09-24 11:28:59.005	\N	0
+5500	MAINTENANCE_JOB_STARTED	2018-09-24 11:28:59.007	\N	0
+5504	MAINTENANCE_JOB_ENDED	2018-09-24 11:28:59.014	\N	0
+5508	MAINTENANCE_JOB_STARTED	2018-09-24 11:28:59.015	\N	0
+5512	MAINTENANCE_JOB_ENDED	2018-09-24 11:28:59.015	\N	0
+5516	MAINTENANCE_JOB_STARTED	2018-09-24 11:28:59.017	\N	0
+5520	MAINTENANCE_JOB_ENDED	2018-09-24 11:28:59.032	\N	0
+5524	MAINTENANCE_JOB_STARTED	2018-09-24 11:38:59.039	\N	0
+5528	MAINTENANCE_JOB_ENDED	2018-09-24 11:38:59.043	\N	0
+5532	MAINTENANCE_JOB_STARTED	2018-09-24 11:38:59.05	\N	0
+5536	MAINTENANCE_JOB_ENDED	2018-09-24 11:38:59.064	\N	0
+5540	MAINTENANCE_JOB_STARTED	2018-09-24 11:38:59.066	\N	0
+5544	MAINTENANCE_JOB_ENDED	2018-09-24 11:38:59.068	\N	0
+5548	MAINTENANCE_JOB_STARTED	2018-09-24 11:38:59.069	\N	0
+5552	MAINTENANCE_JOB_ENDED	2018-09-24 11:38:59.111	\N	0
+5556	MAINTENANCE_JOB_STARTED	2018-09-24 11:48:59.116	\N	0
+5560	MAINTENANCE_JOB_ENDED	2018-09-24 11:48:59.124	\N	0
+5564	MAINTENANCE_JOB_STARTED	2018-09-24 11:48:59.131	\N	0
+5568	MAINTENANCE_JOB_ENDED	2018-09-24 11:48:59.146	\N	0
+5572	MAINTENANCE_JOB_STARTED	2018-09-24 11:48:59.147	\N	0
+5576	MAINTENANCE_JOB_ENDED	2018-09-24 11:48:59.148	\N	0
+5580	MAINTENANCE_JOB_STARTED	2018-09-24 11:48:59.149	\N	0
+5584	MAINTENANCE_JOB_ENDED	2018-09-24 11:48:59.177	\N	0
+5588	MAINTENANCE_JOB_STARTED	2018-09-24 11:58:59.181	\N	0
+5592	MAINTENANCE_JOB_ENDED	2018-09-24 11:58:59.194	\N	0
+5596	MAINTENANCE_JOB_STARTED	2018-09-24 11:58:59.195	\N	0
+5600	MAINTENANCE_JOB_ENDED	2018-09-24 11:58:59.203	\N	0
+5604	MAINTENANCE_JOB_STARTED	2018-09-24 11:58:59.205	\N	0
+5608	MAINTENANCE_JOB_ENDED	2018-09-24 11:58:59.206	\N	0
+5612	MAINTENANCE_JOB_STARTED	2018-09-24 11:58:59.206	\N	0
+5616	MAINTENANCE_JOB_ENDED	2018-09-24 11:58:59.268	\N	0
+5620	MAINTENANCE_JOB_STARTED	2018-09-24 12:08:59.272	\N	0
+5624	MAINTENANCE_JOB_ENDED	2018-09-24 12:08:59.276	\N	0
+5628	MAINTENANCE_JOB_STARTED	2018-09-24 12:08:59.277	\N	0
+5632	MAINTENANCE_JOB_ENDED	2018-09-24 12:08:59.301	\N	0
+5636	MAINTENANCE_JOB_STARTED	2018-09-24 12:08:59.303	\N	0
+5640	MAINTENANCE_JOB_ENDED	2018-09-24 12:08:59.304	\N	0
+5644	MAINTENANCE_JOB_STARTED	2018-09-24 12:08:59.307	\N	0
+5648	MAINTENANCE_JOB_ENDED	2018-09-24 12:08:59.333	\N	0
+5652	MAINTENANCE_JOB_STARTED	2018-09-24 12:18:59.337	\N	0
+5656	MAINTENANCE_JOB_ENDED	2018-09-24 12:18:59.344	\N	0
+5660	MAINTENANCE_JOB_STARTED	2018-09-24 12:18:59.346	\N	0
+5664	MAINTENANCE_JOB_ENDED	2018-09-24 12:18:59.365	\N	0
+5668	MAINTENANCE_JOB_STARTED	2018-09-24 12:18:59.367	\N	0
+5672	MAINTENANCE_JOB_ENDED	2018-09-24 12:18:59.368	\N	0
+5676	MAINTENANCE_JOB_STARTED	2018-09-24 12:18:59.369	\N	0
+5680	MAINTENANCE_JOB_ENDED	2018-09-24 12:18:59.387	\N	0
+5684	MAINTENANCE_JOB_STARTED	2018-09-24 12:28:59.393	\N	0
+5688	MAINTENANCE_JOB_ENDED	2018-09-24 12:28:59.413	\N	0
+5692	MAINTENANCE_JOB_STARTED	2018-09-24 12:28:59.415	\N	0
+5696	MAINTENANCE_JOB_ENDED	2018-09-24 12:28:59.463	\N	0
+5700	MAINTENANCE_JOB_STARTED	2018-09-24 12:28:59.468	\N	0
+5704	MAINTENANCE_JOB_ENDED	2018-09-24 12:28:59.469	\N	0
+5708	MAINTENANCE_JOB_STARTED	2018-09-24 12:28:59.472	\N	0
+5712	MAINTENANCE_JOB_ENDED	2018-09-24 12:28:59.596	\N	0
+5716	INVALIDATE_SESSION	2018-09-24 17:07:23.884	\N	0
+5718	MAINTENANCE_JOB_STARTED	2018-09-24 17:08:16.169	\N	0
+5722	MAINTENANCE_JOB_ENDED	2018-09-24 17:08:16.178	\N	0
+5726	MAINTENANCE_JOB_STARTED	2018-09-24 17:08:16.18	\N	0
+5730	MAINTENANCE_JOB_ENDED	2018-09-24 17:08:16.209	\N	0
+5734	MAINTENANCE_JOB_STARTED	2018-09-24 17:08:16.211	\N	0
+5738	MAINTENANCE_JOB_ENDED	2018-09-24 17:08:16.211	\N	0
+5742	MAINTENANCE_JOB_STARTED	2018-09-24 17:08:16.212	\N	0
+5746	MAINTENANCE_JOB_ENDED	2018-09-24 17:08:16.235	\N	0
+5750	INIT_SESSION	2018-09-24 17:10:56.73	\N	0
+5751	INVALID_CONFIG	2018-09-24 17:10:56.943	\N	0
+5755	LOGIN	2018-09-24 17:10:56.956	6	0
+5757	MERGE_ENTITY	2018-09-24 17:11:25.974	6	0
+5760	AFTER_MERGE_ENTITY	2018-09-24 17:11:26.041	6	0
+5765	REMOVE_ENTITY	2018-09-24 17:11:27.029	6	0
+5768	AFTER_REMOVE_ENTITY	2018-09-24 17:11:27.062	6	0
+5771	MERGE_ENTITY	2018-09-24 17:11:27.073	6	0
+5774	AFTER_MERGE_ENTITY	2018-09-24 17:11:27.29	6	0
+5777	REPORT_EXECUTION	2018-09-24 17:11:32.316	6	0
+5783	BEGIN_REPORT_EXECUTION	2018-09-24 17:11:32.317	6	0
+5786	END_REPORT_EXECUTION	2018-09-24 17:11:32.729	6	0
+5790	REPORT_EXECUTION	2018-09-24 17:11:55.259	3948	0
+5796	BEGIN_REPORT_EXECUTION	2018-09-24 17:11:55.279	3948	0
+5799	END_REPORT_EXECUTION	2018-09-24 17:11:55.69	3948	0
+5803	REPORT_EXECUTION	2018-09-24 17:12:19.246	3948	0
+5809	BEGIN_REPORT_EXECUTION	2018-09-24 17:12:19.259	3948	0
+5812	END_REPORT_EXECUTION	2018-09-24 17:12:19.678	3948	0
+5816	MAINTENANCE_JOB_STARTED	2018-09-24 17:18:16.244	\N	0
+5820	MAINTENANCE_JOB_ENDED	2018-09-24 17:18:16.254	\N	0
+5824	MAINTENANCE_JOB_STARTED	2018-09-24 17:18:16.255	\N	0
+5828	MAINTENANCE_JOB_ENDED	2018-09-24 17:18:16.265	\N	0
+5832	MAINTENANCE_JOB_STARTED	2018-09-24 17:18:16.266	\N	0
+5836	MAINTENANCE_JOB_ENDED	2018-09-24 17:18:16.267	\N	0
+5840	MAINTENANCE_JOB_STARTED	2018-09-24 17:18:16.27	\N	0
+5844	MAINTENANCE_JOB_ENDED	2018-09-24 17:18:16.289	\N	0
+5848	REPORT_EXECUTION	2018-09-24 17:19:05.792	3948	0
+5854	BEGIN_REPORT_EXECUTION	2018-09-24 17:19:05.794	3948	0
+5857	END_REPORT_EXECUTION	2018-09-24 17:19:09.222	3948	0
+5861	REPORT_EXECUTION	2018-09-24 17:20:00.333	3948	0
+5867	BEGIN_REPORT_EXECUTION	2018-09-24 17:20:00.343	3948	0
+5870	END_REPORT_EXECUTION	2018-09-24 17:20:00.905	3948	0
+5874	REPORT_EXECUTION	2018-09-24 17:20:58.685	3948	0
+5880	BEGIN_REPORT_EXECUTION	2018-09-24 17:20:58.694	3948	0
+5883	END_REPORT_EXECUTION	2018-09-24 17:20:59.056	3948	0
+5887	REPORT_EXECUTION	2018-09-24 17:21:49.999	3948	0
+5893	BEGIN_REPORT_EXECUTION	2018-09-24 17:21:50.013	3948	0
+5896	END_REPORT_EXECUTION	2018-09-24 17:21:50.304	3948	0
+5900	REPORT_EXECUTION	2018-09-24 17:24:35.593	6	0
+5906	BEGIN_REPORT_EXECUTION	2018-09-24 17:24:35.594	6	0
+5909	END_REPORT_EXECUTION	2018-09-24 17:24:35.873	6	0
+5913	REPORT_EXECUTION	2018-09-24 17:24:55.171	3948	0
+5919	BEGIN_REPORT_EXECUTION	2018-09-24 17:24:55.182	3948	0
+5922	END_REPORT_EXECUTION	2018-09-24 17:24:55.653	3948	0
+5926	REPORT_EXECUTION	2018-09-24 17:26:21.514	3948	0
+5932	BEGIN_REPORT_EXECUTION	2018-09-24 17:26:21.529	3948	0
+5935	END_REPORT_EXECUTION	2018-09-24 17:26:21.819	3948	0
+5939	REPORT_EXECUTION	2018-09-24 17:26:50.641	3948	0
+5945	BEGIN_REPORT_EXECUTION	2018-09-24 17:26:50.648	3948	0
+5948	END_REPORT_EXECUTION	2018-09-24 17:26:50.9	3948	0
+5952	REPORT_EXECUTION	2018-09-24 17:28:00.167	3948	0
+5958	BEGIN_REPORT_EXECUTION	2018-09-24 17:28:00.177	3948	0
+5961	END_REPORT_EXECUTION	2018-09-24 17:28:00.448	3948	0
+5965	MAINTENANCE_JOB_STARTED	2018-09-24 17:28:16.293	\N	0
+5969	MAINTENANCE_JOB_ENDED	2018-09-24 17:28:16.296	\N	0
+5973	MAINTENANCE_JOB_STARTED	2018-09-24 17:28:16.297	\N	0
+5977	MAINTENANCE_JOB_ENDED	2018-09-24 17:28:16.317	\N	0
+5981	MAINTENANCE_JOB_STARTED	2018-09-24 17:28:16.319	\N	0
+5985	MAINTENANCE_JOB_ENDED	2018-09-24 17:28:16.322	\N	0
+5989	MAINTENANCE_JOB_STARTED	2018-09-24 17:28:16.323	\N	0
+5993	MAINTENANCE_JOB_ENDED	2018-09-24 17:28:16.335	\N	0
+5997	REPORT_EXECUTION	2018-09-24 17:28:46.564	3948	0
+6003	BEGIN_REPORT_EXECUTION	2018-09-24 17:28:46.574	3948	0
+6006	END_REPORT_EXECUTION	2018-09-24 17:28:46.864	3948	0
 \.
 
 
@@ -8274,6 +8442,7 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 5198	entity_id	5072	0	5196
 5200	entity_type	class net.datenwerke.rs.birt.service.reportengine.entities.BirtReportFile	0	5199
 5201	entity_id	5072	0	5199
+451	entity_id	181	0	449
 5203	entity_type	class net.datenwerke.rs.birt.service.reportengine.entities.BirtReport	0	5202
 5204	entity_id	3802	0	5202
 5206	entity_type	class net.datenwerke.rs.birt.service.reportengine.entities.BirtReport	0	5205
@@ -8356,6 +8525,7 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 5239	time	1537365412364	0	5237
 5240	user_load_error	no user logged in	0	5237
 5242	time	1537365412371	0	5241
+675	entity_id	177	0	674
 5243	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5241
 5244	user_load_error	no user logged in	0	5241
 5246	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5245
@@ -8601,6 +8771,7 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 4193	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	4192
 4194	user_load_error	no user logged in	0	4192
 4195	time	1537346882171	0	4192
+337	user_load_error	no user logged in	0	334
 226	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	225
 227	user_load_error	no user logged in	0	225
 228	entity_id	166	0	225
@@ -8681,7 +8852,6 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 332	user_load_error	no user logged in	0	330
 333	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	330
 335	entity_id	172	0	334
-337	user_load_error	no user logged in	0	334
 338	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	334
 340	user_load_error	no user logged in	0	339
 341	entity_id	172	0	339
@@ -8761,7 +8931,6 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 446	user_load_error	no user logged in	0	444
 447	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	444
 448	entity_id	181	0	444
-451	entity_id	181	0	449
 452	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	449
 453	user_load_error	no user logged in	0	449
 455	entity_id	178	0	454
@@ -8841,6 +9010,7 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 558	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	555
 560	user_load_error	no user logged in	0	559
 561	entity_id	178	0	559
+787	entity_id	207	0	784
 562	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	559
 564	user_load_error	no user logged in	0	563
 565	entity_id	189	0	563
@@ -8920,7 +9090,6 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 671	user_load_error	no user logged in	0	670
 672	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	670
 673	entity_id	198	0	670
-675	entity_id	177	0	674
 676	user_load_error	no user logged in	0	674
 677	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	674
 679	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	678
@@ -8999,7 +9168,6 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 783	user_load_error	no user logged in	0	780
 785	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	784
 786	user_load_error	no user logged in	0	784
-787	entity_id	207	0	784
 789	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	788
 790	entity_id	207	0	788
 791	user_load_error	no user logged in	0	788
@@ -9158,6 +9326,7 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 998	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	996
 999	user_load_error	no user logged in	0	996
 1001	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	1000
+1217	entity_id	511	0	1216
 1002	user_load_error	no user logged in	0	1000
 1003	entity_id	223	0	1000
 1005	entity_id	220	0	1004
@@ -9317,7 +9486,6 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 1213	entity_id	511	0	1212
 1214	user_load_error	no user logged in	0	1212
 1215	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	1212
-1217	entity_id	511	0	1216
 1218	user_load_error	no user logged in	0	1216
 1219	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	1216
 1221	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	1220
@@ -9396,6 +9564,7 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 1318	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	1316
 1319	entity_id	658	0	1316
 1321	user_load_error	no user logged in	0	1320
+1429	user_load_error	no user logged in	0	1428
 1322	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	1320
 1323	entity_id	658	0	1320
 1325	user_load_error	no user logged in	0	1324
@@ -9475,7 +9644,6 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 1425	user_load_error	no user logged in	0	1424
 1426	entity_id	167	0	1424
 1427	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	1424
-1429	user_load_error	no user logged in	0	1428
 1430	entity_id	823	0	1428
 1431	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	1428
 1433	user_load_error	no user logged in	0	1432
@@ -9960,6 +10128,7 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 4773	time	1537360083687	0	4772
 4774	user_load_error	no user logged in	0	4772
 4775	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	4772
+2289	entity_id	11	0	2288
 4777	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	4776
 4778	time	1537360083726	0	4776
 2835	entity_id	1518	0	2832
@@ -10199,6 +10368,7 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 1862	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	1860
 1863	entity_id	1505	0	1860
 1865	user_load_error	no user logged in	0	1864
+2502	entity_id	619	0	2500
 1866	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	1864
 1867	entity_id	1505	0	1864
 1869	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	1868
@@ -10357,6 +10527,7 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 2074	user_load_error	no user logged in	0	2072
 2075	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	2072
 2077	entity_id	1525	0	2076
+3264	entity_id	203	0	3263
 2078	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	2076
 2079	user_load_error	no user logged in	0	2076
 2081	entity_id	1525	0	2080
@@ -10515,7 +10686,6 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 2285	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	2284
 2286	user_load_error	no user logged in	0	2284
 2287	entity_id	11	0	2284
-2289	entity_id	11	0	2288
 2290	user_load_error	no user logged in	0	2288
 2291	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	2288
 2293	entity_id	1550	0	2292
@@ -10673,7 +10843,6 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 2498	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	2496
 2499	entity_id	569	0	2496
 2501	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	2500
-2502	entity_id	619	0	2500
 2503	user_load_error	no user logged in	0	2500
 2505	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	2504
 2506	entity_id	619	0	2504
@@ -11302,6 +11471,7 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 3153	entity_id	178	0	3151
 3154	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFolder	0	3151
 3156	entity_id	179	0	3155
+3262	user_load_error	no user logged in	0	3259
 3157	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	3155
 3158	user_load_error	no user logged in	0	3155
 3160	entity_id	179	0	3159
@@ -11381,8 +11551,6 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 3258	user_load_error	no user logged in	0	3255
 3260	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	3259
 3261	entity_id	203	0	3259
-3262	user_load_error	no user logged in	0	3259
-3264	entity_id	203	0	3263
 3265	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	3263
 3266	user_load_error	no user logged in	0	3263
 3268	entity_type	class net.datenwerke.rs.fileserver.service.fileserver.entities.FileServerFile	0	3267
@@ -11662,6 +11830,503 @@ COPY public.rs_audit_log_property (entity_id, key_field, value, entity_version, 
 5211	token	3802-6-1537365245147-1088649706	0	5208
 5212	output_format	PDF	0	5208
 5213	uuid	4739aa23-ed5b-4898-a054-7eea114ac80e	0	5208
+5344	system_user	root	0	5343
+5345	user_load_error	no user logged in	0	5343
+5347	time	1537786138275	0	5346
+5348	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5346
+5349	user_load_error	no user logged in	0	5346
+5351	time	1537786138314	0	5350
+5352	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5350
+5353	user_load_error	no user logged in	0	5350
+5355	time	1537786138326	0	5354
+5356	user_load_error	no user logged in	0	5354
+5357	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5354
+5359	time	1537786138506	0	5358
+5360	user_load_error	no user logged in	0	5358
+5361	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5358
+5363	user_load_error	no user logged in	0	5362
+5364	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5362
+5365	time	1537786138509	0	5362
+5367	time	1537786138510	0	5366
+5368	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5366
+5369	user_load_error	no user logged in	0	5366
+5371	time	1537786138513	0	5370
+5372	user_load_error	no user logged in	0	5370
+5373	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5370
+5375	user_load_error	no user logged in	0	5374
+5376	time	1537786138570	0	5374
+5377	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5374
+5379	user_load_error	no user logged in	0	5378
+5381	user_load_error	no user logged in	0	5380
+5383	user_load_error	no user logged in	0	5382
+5384	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5382
+5385	time	1537786738580	0	5382
+5387	user_load_error	no user logged in	0	5386
+5388	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5386
+5389	time	1537786738583	0	5386
+5391	time	1537786738585	0	5390
+5392	user_load_error	no user logged in	0	5390
+5393	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5390
+5395	user_load_error	no user logged in	0	5394
+5396	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5394
+5397	time	1537786738599	0	5394
+5399	user_load_error	no user logged in	0	5398
+5400	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5398
+5401	time	1537786738601	0	5398
+5403	user_load_error	no user logged in	0	5402
+5404	time	1537786738602	0	5402
+5405	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5402
+5407	user_load_error	no user logged in	0	5406
+5408	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5406
+5409	time	1537786738607	0	5406
+5411	time	1537786738633	0	5410
+5412	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5410
+5413	user_load_error	no user logged in	0	5410
+5415	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5414
+5416	time	1537787338635	0	5414
+5417	user_load_error	no user logged in	0	5414
+5419	time	1537787338639	0	5418
+5420	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5418
+5421	user_load_error	no user logged in	0	5418
+5423	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5422
+5424	time	1537787338645	0	5422
+5425	user_load_error	no user logged in	0	5422
+5427	time	1537787338661	0	5426
+5428	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5426
+5429	user_load_error	no user logged in	0	5426
+5431	user_load_error	no user logged in	0	5430
+5432	time	1537787338663	0	5430
+5433	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5430
+5435	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5434
+5436	time	1537787338663	0	5434
+5437	user_load_error	no user logged in	0	5434
+5439	user_load_error	no user logged in	0	5438
+5440	time	1537787338664	0	5438
+5441	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5438
+5443	user_load_error	no user logged in	0	5442
+5444	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5442
+5445	time	1537787338686	0	5442
+5448	token	NULL	0	5447
+5449	uuid	8c1880a1-5d5a-449c-a3be-4b631ac86114	0	5447
+5450	executing_user	3948	0	5447
+5451	report_id	3802	0	5447
+5452	output_format	PDF	0	5447
+5454	report	3802	0	5453
+5455	uuid	8c1880a1-5d5a-449c-a3be-4b631ac86114	0	5453
+5457	success	true	0	5456
+5458	report	3802	0	5456
+5459	uuid	8c1880a1-5d5a-449c-a3be-4b631ac86114	0	5456
+5461	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5460
+5462	user_load_error	no user logged in	0	5460
+5463	time	1537787938694	0	5460
+5465	time	1537787938719	0	5464
+5466	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5464
+5467	user_load_error	no user logged in	0	5464
+5469	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5468
+5470	time	1537787938720	0	5468
+5471	user_load_error	no user logged in	0	5468
+5473	user_load_error	no user logged in	0	5472
+5474	time	1537787938819	0	5472
+5475	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5472
+5477	user_load_error	no user logged in	0	5476
+5478	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5476
+5479	time	1537787938829	0	5476
+5481	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5480
+5482	time	1537787938829	0	5480
+5483	user_load_error	no user logged in	0	5480
+5485	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5484
+5486	time	1537787938832	0	5484
+5487	user_load_error	no user logged in	0	5484
+5489	time	1537787938999	0	5488
+5490	user_load_error	no user logged in	0	5488
+5491	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5488
+5493	user_load_error	no user logged in	0	5492
+5494	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5492
+5495	time	1537788539004	0	5492
+5497	user_load_error	no user logged in	0	5496
+5498	time	1537788539005	0	5496
+5499	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5496
+5501	user_load_error	no user logged in	0	5500
+5502	time	1537788539007	0	5500
+5503	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5500
+5505	time	1537788539014	0	5504
+5506	user_load_error	no user logged in	0	5504
+5507	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5504
+5509	user_load_error	no user logged in	0	5508
+5510	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5508
+5511	time	1537788539015	0	5508
+5513	time	1537788539015	0	5512
+5514	user_load_error	no user logged in	0	5512
+5515	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5512
+5517	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5516
+5518	user_load_error	no user logged in	0	5516
+5519	time	1537788539017	0	5516
+5521	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5520
+5522	user_load_error	no user logged in	0	5520
+5523	time	1537788539032	0	5520
+5525	time	1537789139039	0	5524
+5526	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5524
+5527	user_load_error	no user logged in	0	5524
+5529	time	1537789139043	0	5528
+5530	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5528
+5531	user_load_error	no user logged in	0	5528
+5533	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5532
+5534	user_load_error	no user logged in	0	5532
+5535	time	1537789139050	0	5532
+5537	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5536
+5538	time	1537789139064	0	5536
+5539	user_load_error	no user logged in	0	5536
+5541	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5540
+5542	user_load_error	no user logged in	0	5540
+5543	time	1537789139066	0	5540
+5545	time	1537789139068	0	5544
+5546	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5544
+5547	user_load_error	no user logged in	0	5544
+5549	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5548
+5550	time	1537789139069	0	5548
+5551	user_load_error	no user logged in	0	5548
+5553	time	1537789139111	0	5552
+5554	user_load_error	no user logged in	0	5552
+5555	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5552
+5557	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5556
+5558	time	1537789739116	0	5556
+5559	user_load_error	no user logged in	0	5556
+5561	user_load_error	no user logged in	0	5560
+5562	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5560
+5563	time	1537789739124	0	5560
+5565	time	1537789739131	0	5564
+5566	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5564
+5567	user_load_error	no user logged in	0	5564
+5569	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5568
+5570	time	1537789739146	0	5568
+5571	user_load_error	no user logged in	0	5568
+5573	time	1537789739147	0	5572
+5574	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5572
+5575	user_load_error	no user logged in	0	5572
+5577	time	1537789739148	0	5576
+5578	user_load_error	no user logged in	0	5576
+5579	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5576
+5581	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5580
+5582	time	1537789739149	0	5580
+5583	user_load_error	no user logged in	0	5580
+5585	user_load_error	no user logged in	0	5584
+5586	time	1537789739177	0	5584
+5587	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5584
+5589	user_load_error	no user logged in	0	5588
+5590	time	1537790339181	0	5588
+5591	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5588
+5593	user_load_error	no user logged in	0	5592
+5594	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5592
+5595	time	1537790339194	0	5592
+5597	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5596
+5598	time	1537790339195	0	5596
+5599	user_load_error	no user logged in	0	5596
+5601	user_load_error	no user logged in	0	5600
+5602	time	1537790339203	0	5600
+5603	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5600
+5605	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5604
+5606	user_load_error	no user logged in	0	5604
+5607	time	1537790339205	0	5604
+5609	user_load_error	no user logged in	0	5608
+5610	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5608
+5611	time	1537790339206	0	5608
+5613	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5612
+5614	user_load_error	no user logged in	0	5612
+5615	time	1537790339206	0	5612
+5617	time	1537790339268	0	5616
+5618	user_load_error	no user logged in	0	5616
+5619	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5616
+5621	user_load_error	no user logged in	0	5620
+5622	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5620
+5623	time	1537790939272	0	5620
+5625	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5624
+5626	time	1537790939276	0	5624
+5627	user_load_error	no user logged in	0	5624
+5629	time	1537790939277	0	5628
+5630	user_load_error	no user logged in	0	5628
+5631	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5628
+5633	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5632
+5634	time	1537790939301	0	5632
+5635	user_load_error	no user logged in	0	5632
+5637	user_load_error	no user logged in	0	5636
+5638	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5636
+5639	time	1537790939303	0	5636
+5641	time	1537790939304	0	5640
+5642	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5640
+5643	user_load_error	no user logged in	0	5640
+5645	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5644
+5646	time	1537790939307	0	5644
+5647	user_load_error	no user logged in	0	5644
+5649	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5648
+5650	time	1537790939333	0	5648
+5651	user_load_error	no user logged in	0	5648
+5653	time	1537791539337	0	5652
+5654	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5652
+5655	user_load_error	no user logged in	0	5652
+5657	user_load_error	no user logged in	0	5656
+5658	time	1537791539343	0	5656
+5659	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5656
+5661	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5660
+5662	user_load_error	no user logged in	0	5660
+5663	time	1537791539346	0	5660
+5665	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5664
+5666	time	1537791539365	0	5664
+5667	user_load_error	no user logged in	0	5664
+5669	user_load_error	no user logged in	0	5668
+5670	time	1537791539367	0	5668
+5671	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5668
+5673	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5672
+5674	user_load_error	no user logged in	0	5672
+5675	time	1537791539368	0	5672
+5677	time	1537791539369	0	5676
+5678	user_load_error	no user logged in	0	5676
+5679	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5676
+5681	user_load_error	no user logged in	0	5680
+5682	time	1537791539387	0	5680
+5683	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5680
+5685	time	1537792139392	0	5684
+5686	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5684
+5687	user_load_error	no user logged in	0	5684
+5689	user_load_error	no user logged in	0	5688
+5690	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5688
+5691	time	1537792139413	0	5688
+5693	user_load_error	no user logged in	0	5692
+5694	time	1537792139415	0	5692
+5695	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5692
+5697	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5696
+5698	time	1537792139463	0	5696
+5699	user_load_error	no user logged in	0	5696
+5701	user_load_error	no user logged in	0	5700
+5702	time	1537792139468	0	5700
+5703	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5700
+5705	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5704
+5706	time	1537792139469	0	5704
+5707	user_load_error	no user logged in	0	5704
+5709	time	1537792139472	0	5708
+5710	user_load_error	no user logged in	0	5708
+5711	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5708
+5713	user_load_error	no user logged in	0	5712
+5714	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5712
+5715	time	1537792139596	0	5712
+5717	user_load_error	no user logged in	0	5716
+5719	user_load_error	no user logged in	0	5718
+5720	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5718
+5721	time	1537808896169	0	5718
+5723	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5722
+5724	user_load_error	no user logged in	0	5722
+5725	time	1537808896178	0	5722
+5727	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5726
+5728	time	1537808896180	0	5726
+5729	user_load_error	no user logged in	0	5726
+5731	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5730
+5732	user_load_error	no user logged in	0	5730
+5733	time	1537808896209	0	5730
+5735	time	1537808896211	0	5734
+5736	user_load_error	no user logged in	0	5734
+5737	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5734
+5739	user_load_error	no user logged in	0	5738
+5740	time	1537808896211	0	5738
+5741	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5738
+5743	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5742
+5744	user_load_error	no user logged in	0	5742
+5745	time	1537808896212	0	5742
+5747	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5746
+5748	user_load_error	no user logged in	0	5746
+5749	time	1537808896235	0	5746
+5752	name	password policy	0	5751
+5753	error	Could not find config for security/passwordpolicy.cf	0	5751
+5754	user_load_error	no user logged in	0	5751
+5756	user	6	0	5755
+5758	entity_type	class net.datenwerke.rs.birt.service.reportengine.entities.BirtReport	0	5757
+5759	entity_id	3802	0	5757
+5761	entity_id	3802	0	5760
+5762	entity_type	class net.datenwerke.rs.birt.service.reportengine.entities.BirtReport	0	5760
+5766	entity_id	5188	0	5765
+5767	entity_type	class net.datenwerke.rs.birt.service.reportengine.entities.BirtReportFile	0	5765
+5769	entity_id	5188	0	5768
+5770	entity_type	class net.datenwerke.rs.birt.service.reportengine.entities.BirtReportFile	0	5768
+5772	entity_id	3802	0	5771
+5773	entity_type	class net.datenwerke.rs.birt.service.reportengine.entities.BirtReport	0	5771
+5775	entity_id	3802	0	5774
+5776	entity_type	class net.datenwerke.rs.birt.service.reportengine.entities.BirtReport	0	5774
+5778	output_format	PDF	0	5777
+5779	executing_user	6	0	5777
+5780	uuid	db0e8ebe-4ba5-426a-923d-d3763c719691	0	5777
+5781	token	3802-6-1537809090458-406255911	0	5777
+5782	report_id	3802	0	5777
+5784	uuid	db0e8ebe-4ba5-426a-923d-d3763c719691	0	5783
+5785	report	3802	0	5783
+5787	report	3802	0	5786
+5788	uuid	db0e8ebe-4ba5-426a-923d-d3763c719691	0	5786
+5789	success	true	0	5786
+5791	token	NULL	0	5790
+5792	executing_user	3948	0	5790
+5793	uuid	b08ad86a-c04f-4431-8212-528624c9220c	0	5790
+5794	output_format	PDF	0	5790
+5795	report_id	3802	0	5790
+5797	uuid	b08ad86a-c04f-4431-8212-528624c9220c	0	5796
+5798	report	3802	0	5796
+5800	uuid	b08ad86a-c04f-4431-8212-528624c9220c	0	5799
+5801	success	true	0	5799
+5802	report	3802	0	5799
+5804	output_format	PDF	0	5803
+5805	report_id	3802	0	5803
+5806	token	NULL	0	5803
+5807	executing_user	3948	0	5803
+5808	uuid	34899c8a-5985-4745-93f0-5463ff3801bc	0	5803
+5810	uuid	34899c8a-5985-4745-93f0-5463ff3801bc	0	5809
+5811	report	3802	0	5809
+5813	report	3802	0	5812
+5814	success	true	0	5812
+5815	uuid	34899c8a-5985-4745-93f0-5463ff3801bc	0	5812
+5817	user_load_error	no user logged in	0	5816
+5818	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5816
+5819	time	1537809496244	0	5816
+5821	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5820
+5822	user_load_error	no user logged in	0	5820
+5823	time	1537809496254	0	5820
+5825	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5824
+5826	time	1537809496255	0	5824
+5827	user_load_error	no user logged in	0	5824
+5829	user_load_error	no user logged in	0	5828
+5830	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5828
+5831	time	1537809496265	0	5828
+5833	time	1537809496266	0	5832
+5834	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5832
+5835	user_load_error	no user logged in	0	5832
+5837	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5836
+5838	time	1537809496267	0	5836
+5839	user_load_error	no user logged in	0	5836
+5841	user_load_error	no user logged in	0	5840
+5842	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5840
+5843	time	1537809496270	0	5840
+5845	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5844
+5846	user_load_error	no user logged in	0	5844
+5847	time	1537809496289	0	5844
+5849	report_id	3802	0	5848
+5850	executing_user	3948	0	5848
+5851	output_format	EXCEL	0	5848
+5852	token	NULL	0	5848
+5853	uuid	0d534a3b-2ee4-435b-bd91-19d9a0d4aecd	0	5848
+5855	uuid	0d534a3b-2ee4-435b-bd91-19d9a0d4aecd	0	5854
+5856	report	3802	0	5854
+5858	report	3802	0	5857
+5859	success	true	0	5857
+5860	uuid	0d534a3b-2ee4-435b-bd91-19d9a0d4aecd	0	5857
+5862	token	NULL	0	5861
+5863	report_id	3802	0	5861
+5864	executing_user	3948	0	5861
+5865	output_format	EXCEL	0	5861
+5866	uuid	d8ad4998-2f41-4d67-8567-a28277a0c768	0	5861
+5868	uuid	d8ad4998-2f41-4d67-8567-a28277a0c768	0	5867
+5869	report	3802	0	5867
+5871	uuid	d8ad4998-2f41-4d67-8567-a28277a0c768	0	5870
+5872	report	3802	0	5870
+5873	success	true	0	5870
+5875	report_id	3802	0	5874
+5876	token	NULL	0	5874
+5877	uuid	920d742e-125b-4d6e-96e5-a7473f7d3812	0	5874
+5878	output_format	HTML	0	5874
+5879	executing_user	3948	0	5874
+5881	uuid	920d742e-125b-4d6e-96e5-a7473f7d3812	0	5880
+5882	report	3802	0	5880
+5884	uuid	920d742e-125b-4d6e-96e5-a7473f7d3812	0	5883
+5885	report	3802	0	5883
+5886	success	true	0	5883
+5888	report_id	3802	0	5887
+5889	uuid	b69f773e-8690-4d4a-a184-942e848fd524	0	5887
+5890	output_format	HTML	0	5887
+5891	token	NULL	0	5887
+5892	executing_user	3948	0	5887
+5894	report	3802	0	5893
+5895	uuid	b69f773e-8690-4d4a-a184-942e848fd524	0	5893
+5897	success	true	0	5896
+5898	report	3802	0	5896
+5899	uuid	b69f773e-8690-4d4a-a184-942e848fd524	0	5896
+5901	token	3802-6-1537809874880--321016388	0	5900
+5902	executing_user	6	0	5900
+5903	report_id	3802	0	5900
+5904	uuid	3071a749-d270-4853-8f5e-b221444af903	0	5900
+5905	output_format	PDF	0	5900
+5907	report	3802	0	5906
+5908	uuid	3071a749-d270-4853-8f5e-b221444af903	0	5906
+5910	uuid	3071a749-d270-4853-8f5e-b221444af903	0	5909
+5911	success	true	0	5909
+5912	report	3802	0	5909
+5914	executing_user	3948	0	5913
+5915	token	NULL	0	5913
+5916	uuid	944601fc-abf9-4eff-94ef-dac665c570c0	0	5913
+5917	output_format	WORD	0	5913
+5918	report_id	3802	0	5913
+5920	report	3802	0	5919
+5921	uuid	944601fc-abf9-4eff-94ef-dac665c570c0	0	5919
+5923	success	true	0	5922
+5924	report	3802	0	5922
+5925	uuid	944601fc-abf9-4eff-94ef-dac665c570c0	0	5922
+5927	uuid	cdd94c2a-e2f3-4561-bd2f-e2c51301408b	0	5926
+5928	output_format	WORD	0	5926
+5929	executing_user	3948	0	5926
+5930	token	NULL	0	5926
+5931	report_id	3802	0	5926
+5933	uuid	cdd94c2a-e2f3-4561-bd2f-e2c51301408b	0	5932
+5934	report	3802	0	5932
+5936	report	3802	0	5935
+5937	uuid	cdd94c2a-e2f3-4561-bd2f-e2c51301408b	0	5935
+5938	success	true	0	5935
+5940	uuid	41b72fe5-376b-46bb-9d2f-f7aa73a8130d	0	5939
+5941	executing_user	3948	0	5939
+5942	output_format	WORD	0	5939
+5943	report_id	3802	0	5939
+5944	token	NULL	0	5939
+5946	report	3802	0	5945
+5947	uuid	41b72fe5-376b-46bb-9d2f-f7aa73a8130d	0	5945
+5949	report	3802	0	5948
+5950	success	true	0	5948
+5951	uuid	41b72fe5-376b-46bb-9d2f-f7aa73a8130d	0	5948
+5953	token	NULL	0	5952
+5954	output_format	WORD	0	5952
+5955	report_id	3802	0	5952
+5956	uuid	abac5493-2944-489f-8b73-59aef752d3a7	0	5952
+5957	executing_user	3948	0	5952
+5959	uuid	abac5493-2944-489f-8b73-59aef752d3a7	0	5958
+5960	report	3802	0	5958
+5962	success	true	0	5961
+5963	report	3802	0	5961
+5964	uuid	abac5493-2944-489f-8b73-59aef752d3a7	0	5961
+5966	user_load_error	no user logged in	0	5965
+5967	time	1537810096293	0	5965
+5968	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5965
+5970	name	net.datenwerke.gf.service.tempfile.maintenance.TempFileMaintenance	0	5969
+5971	user_load_error	no user logged in	0	5969
+5972	time	1537810096296	0	5969
+5974	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5973
+5975	user_load_error	no user logged in	0	5973
+5976	time	1537810096297	0	5973
+5978	time	1537810096317	0	5977
+5979	name	net.datenwerke.rs.base.service.reportengines.table.maintenance.TableReportIntegrityValidator	0	5977
+5980	user_load_error	no user logged in	0	5977
+5982	time	1537810096319	0	5981
+5983	user_load_error	no user logged in	0	5981
+5984	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5981
+5986	time	1537810096322	0	5985
+5987	user_load_error	no user logged in	0	5985
+5988	name	net.datenwerke.rs.core.service.internaldb.hookers.TempTableMaintenanceTask	0	5985
+5990	time	1537810096323	0	5989
+5991	user_load_error	no user logged in	0	5989
+5992	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5989
+5994	name	net.datenwerke.rs.core.service.maintenance.BlockUserMaintenanceTask	0	5993
+5995	user_load_error	no user logged in	0	5993
+5996	time	1537810096335	0	5993
+5998	output_format	WORD	0	5997
+5999	executing_user	3948	0	5997
+6000	token	NULL	0	5997
+6001	report_id	3802	0	5997
+6002	uuid	a5c62efe-bddc-4874-870d-f6b1cec6c848	0	5997
+6004	uuid	a5c62efe-bddc-4874-870d-f6b1cec6c848	0	6003
+6005	report	3802	0	6003
+6007	uuid	a5c62efe-bddc-4874-870d-f6b1cec6c848	0	6006
+6008	success	true	0	6006
+6009	report	3802	0	6006
 \.
 
 
@@ -11686,7 +12351,7 @@ COPY public.rs_binary_column_filter_a (id, rev, operator, columna_id, columnb_id
 --
 
 COPY public.rs_birt_report (id, report_file_id) FROM stdin;
-3802	5188
+3802	5763
 \.
 
 
@@ -11702,6 +12367,7 @@ COPY public.rs_birt_report_a (id, rev, report_file_id) FROM stdin;
 3802	5040	5039
 3802	5073	5072
 3802	5189	5188
+3802	5764	5763
 \.
 
 
@@ -11742,7 +12408,7 @@ COPY public.rs_birt_report_datasrc_cfg_a (id, rev, query_wrapper, target, target
 --
 
 COPY public.rs_birt_report_file (entity_id, content, name_field, entity_version) FROM stdin;
-5188	<?xml version="1.0" encoding="UTF-8"?>\n<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">\n    <property name="createdBy">Eclipse BIRT Designer Version 4.7.0.v201706222054</property>\n    <property name="units">in</property>\n    <property name="iconFile">/templates/blank_report.gif</property>\n    <property name="bidiLayoutOrientation">ltr</property>\n    <property name="imageDPI">96</property>\n    <data-sources>\n        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Test Data Source" id="5">\n            <list-property name="privateDriverProperties">\n                <ex-property>\n                    <name>metadataBidiFormatStr</name>\n                    <value>ILYNN</value>\n                </ex-property>\n                <ex-property>\n                    <name>disabledMetadataBidiFormatStr</name>\n                </ex-property>\n                <ex-property>\n                    <name>contentBidiFormatStr</name>\n                    <value>ILYNN</value>\n                </ex-property>\n                <ex-property>\n                    <name>disabledContentBidiFormatStr</name>\n                </ex-property>\n            </list-property>\n            <property name="odaDriverClass">org.postgresql.Driver</property>\n            <property name="odaURL">jdbc:postgresql://127.0.0.1:5432/testbase</property>\n            <property name="odaUser">testuser</property>\n            <encrypted-property name="odaPassword" encryptionID="base64">c2VjcmV0</encrypted-property>\n        </oda-data-source>\n    </data-sources>\n    <data-sets>\n        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Test Data Set" id="6">\n            <structure name="cachedMetaData">\n                <list-property name="resultSet">\n                    <structure>\n                        <property name="position">1</property>\n                        <property name="name">testint</property>\n                        <property name="dataType">integer</property>\n                    </structure>\n                    <structure>\n                        <property name="position">2</property>\n                        <property name="name">testtext</property>\n                        <property name="dataType">string</property>\n                    </structure>\n                </list-property>\n            </structure>\n            <property name="dataSource">Test Data Source</property>\n            <list-property name="resultSet">\n                <structure>\n                    <property name="position">1</property>\n                    <property name="name">testint</property>\n                    <property name="nativeName">testint</property>\n                    <property name="dataType">integer</property>\n                </structure>\n                <structure>\n                    <property name="position">2</property>\n                    <property name="name">testtext</property>\n                    <property name="nativeName">testtext</property>\n                    <property name="dataType">string</property>\n                </structure>\n            </list-property>\n            <xml-property name="queryText"><![CDATA[select *\nfrom testtable;]]></xml-property>\n            <xml-property name="designerValues"><![CDATA[]]></xml-property>\n        </oda-data-set>\n    </data-sets>\n    <page-setup>\n        <simple-master-page name="Simple MasterPage" id="2">\n            <page-footer>\n                <text id="3">\n                    <property name="contentType">html</property>\n                    <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>\n                </text>\n            </page-footer>\n        </simple-master-page>\n    </page-setup>\n    <body>\n        <label id="4">\n            <property name="fontFamily">"Sans"</property>\n            <property name="fontSize">18pt</property>\n            <property name="fontWeight">bold</property>\n            <text-property name="text">Installation test report</text-property>\n        </label>\n        <label id="7">\n            <text-property name="text">This table should contain two columns</text-property>\n        </label>\n        <table id="8">\n            <property name="borderBottomStyle">none</property>\n            <property name="borderLeftStyle">none</property>\n            <property name="borderRightStyle">none</property>\n            <property name="borderTopStyle">none</property>\n            <property name="width">6.270833333333333in</property>\n            <property name="dataSet">Test Data Set</property>\n            <list-property name="boundDataColumns">\n                <structure>\n                    <property name="name">testint</property>\n                    <text-property name="displayName">testint</text-property>\n                    <expression name="expression" type="javascript">dataSetRow["testint"]</expression>\n                    <property name="dataType">integer</property>\n                </structure>\n                <structure>\n                    <property name="name">testtext</property>\n                    <text-property name="displayName">testtext</text-property>\n                    <expression name="expression" type="javascript">dataSetRow["testtext"]</expression>\n                    <property name="dataType">string</property>\n                </structure>\n            </list-property>\n            <column id="22">\n                <property name="width">2.3541666666666665in</property>\n            </column>\n            <column id="23">\n                <property name="width">3.6458333333333335in</property>\n            </column>\n            <header>\n                <row id="9">\n                    <property name="backgroundColor">#3F55BF</property>\n                    <property name="borderBottomStyle">none</property>\n                    <property name="borderLeftStyle">none</property>\n                    <property name="borderRightStyle">none</property>\n                    <property name="borderTopStyle">none</property>\n                    <cell id="10">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <label id="11">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="textAlign">left</property>\n                            <text-property name="text">Integer</text-property>\n                        </label>\n                    </cell>\n                    <cell id="12">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <label id="13">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="textAlign">left</property>\n                            <text-property name="text">Text</text-property>\n                        </label>\n                    </cell>\n                </row>\n            </header>\n            <detail>\n                <row id="14">\n                    <cell id="15">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <data id="16">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="resultSetColumn">testint</property>\n                        </data>\n                    </cell>\n                    <cell id="17">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <data id="18">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="resultSetColumn">testtext</property>\n                        </data>\n                    </cell>\n                </row>\n            </detail>\n        </table>\n    </body>\n</report>\n	installation_test_report.rptdesign	0
+5763	<?xml version="1.0" encoding="UTF-8"?>\n<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">\n    <property name="createdBy">Eclipse BIRT Designer Version 4.7.0.v201706222054</property>\n    <property name="units">in</property>\n    <property name="iconFile">/templates/blank_report.gif</property>\n    <property name="bidiLayoutOrientation">ltr</property>\n    <property name="imageDPI">96</property>\n    <data-sources>\n        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Test Data Source" id="5">\n            <list-property name="privateDriverProperties">\n                <ex-property>\n                    <name>metadataBidiFormatStr</name>\n                    <value>ILYNN</value>\n                </ex-property>\n                <ex-property>\n                    <name>disabledMetadataBidiFormatStr</name>\n                </ex-property>\n                <ex-property>\n                    <name>contentBidiFormatStr</name>\n                    <value>ILYNN</value>\n                </ex-property>\n                <ex-property>\n                    <name>disabledContentBidiFormatStr</name>\n                </ex-property>\n            </list-property>\n            <property name="odaDriverClass">org.postgresql.Driver</property>\n            <property name="odaURL">jdbc:postgresql://127.0.0.1:5432/testbase</property>\n            <property name="odaUser">testuser</property>\n            <encrypted-property name="odaPassword" encryptionID="base64">c2VjcmV0</encrypted-property>\n        </oda-data-source>\n    </data-sources>\n    <data-sets>\n        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Test Data Set" id="6">\n            <structure name="cachedMetaData">\n                <list-property name="resultSet">\n                    <structure>\n                        <property name="position">1</property>\n                        <property name="name">testint</property>\n                        <property name="dataType">integer</property>\n                    </structure>\n                    <structure>\n                        <property name="position">2</property>\n                        <property name="name">testtext</property>\n                        <property name="dataType">string</property>\n                    </structure>\n                </list-property>\n            </structure>\n            <property name="dataSource">Test Data Source</property>\n            <list-property name="resultSet">\n                <structure>\n                    <property name="position">1</property>\n                    <property name="name">testint</property>\n                    <property name="nativeName">testint</property>\n                    <property name="dataType">integer</property>\n                </structure>\n                <structure>\n                    <property name="position">2</property>\n                    <property name="name">testtext</property>\n                    <property name="nativeName">testtext</property>\n                    <property name="dataType">string</property>\n                </structure>\n            </list-property>\n            <xml-property name="queryText"><![CDATA[select *\nfrom testtable;]]></xml-property>\n            <xml-property name="designerValues"><![CDATA[]]></xml-property>\n        </oda-data-set>\n    </data-sets>\n    <page-setup>\n        <simple-master-page name="Simple MasterPage" id="2"/>\n    </page-setup>\n    <body>\n        <label id="4">\n            <property name="fontFamily">"Sans"</property>\n            <property name="fontSize">18pt</property>\n            <property name="fontWeight">bold</property>\n            <text-property name="text">Installation test report</text-property>\n        </label>\n        <label id="7">\n            <text-property name="text">This table should contain two columns</text-property>\n        </label>\n        <table id="8">\n            <property name="borderBottomStyle">none</property>\n            <property name="borderLeftStyle">none</property>\n            <property name="borderRightStyle">none</property>\n            <property name="borderTopStyle">none</property>\n            <property name="width">6.270833333333333in</property>\n            <property name="dataSet">Test Data Set</property>\n            <list-property name="boundDataColumns">\n                <structure>\n                    <property name="name">testint</property>\n                    <text-property name="displayName">testint</text-property>\n                    <expression name="expression" type="javascript">dataSetRow["testint"]</expression>\n                    <property name="dataType">integer</property>\n                </structure>\n                <structure>\n                    <property name="name">testtext</property>\n                    <text-property name="displayName">testtext</text-property>\n                    <expression name="expression" type="javascript">dataSetRow["testtext"]</expression>\n                    <property name="dataType">string</property>\n                </structure>\n            </list-property>\n            <column id="22">\n                <property name="width">2.3541666666666665in</property>\n            </column>\n            <column id="23">\n                <property name="width">3.6458333333333335in</property>\n            </column>\n            <header>\n                <row id="9">\n                    <property name="backgroundColor">#3F55BF</property>\n                    <property name="borderBottomStyle">none</property>\n                    <property name="borderLeftStyle">none</property>\n                    <property name="borderRightStyle">none</property>\n                    <property name="borderTopStyle">none</property>\n                    <cell id="10">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <label id="11">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="textAlign">left</property>\n                            <text-property name="text">Integer</text-property>\n                        </label>\n                    </cell>\n                    <cell id="12">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <label id="13">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="textAlign">left</property>\n                            <text-property name="text">Text</text-property>\n                        </label>\n                    </cell>\n                </row>\n            </header>\n            <detail>\n                <row id="14">\n                    <cell id="15">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <data id="16">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="resultSetColumn">testint</property>\n                        </data>\n                    </cell>\n                    <cell id="17">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <data id="18">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="resultSetColumn">testtext</property>\n                        </data>\n                    </cell>\n                </row>\n            </detail>\n        </table>\n    </body>\n</report>\n	installation_test_report.rptdesign	0
 \.
 
 
@@ -11758,6 +12424,8 @@ COPY public.rs_birt_report_file_a (entity_id, rev, revtype, content, name_field)
 5039	5073	2	\N	\N
 5188	5189	0	<?xml version="1.0" encoding="UTF-8"?>\n<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">\n    <property name="createdBy">Eclipse BIRT Designer Version 4.7.0.v201706222054</property>\n    <property name="units">in</property>\n    <property name="iconFile">/templates/blank_report.gif</property>\n    <property name="bidiLayoutOrientation">ltr</property>\n    <property name="imageDPI">96</property>\n    <data-sources>\n        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Test Data Source" id="5">\n            <list-property name="privateDriverProperties">\n                <ex-property>\n                    <name>metadataBidiFormatStr</name>\n                    <value>ILYNN</value>\n                </ex-property>\n                <ex-property>\n                    <name>disabledMetadataBidiFormatStr</name>\n                </ex-property>\n                <ex-property>\n                    <name>contentBidiFormatStr</name>\n                    <value>ILYNN</value>\n                </ex-property>\n                <ex-property>\n                    <name>disabledContentBidiFormatStr</name>\n                </ex-property>\n            </list-property>\n            <property name="odaDriverClass">org.postgresql.Driver</property>\n            <property name="odaURL">jdbc:postgresql://127.0.0.1:5432/testbase</property>\n            <property name="odaUser">testuser</property>\n            <encrypted-property name="odaPassword" encryptionID="base64">c2VjcmV0</encrypted-property>\n        </oda-data-source>\n    </data-sources>\n    <data-sets>\n        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Test Data Set" id="6">\n            <structure name="cachedMetaData">\n                <list-property name="resultSet">\n                    <structure>\n                        <property name="position">1</property>\n                        <property name="name">testint</property>\n                        <property name="dataType">integer</property>\n                    </structure>\n                    <structure>\n                        <property name="position">2</property>\n                        <property name="name">testtext</property>\n                        <property name="dataType">string</property>\n                    </structure>\n                </list-property>\n            </structure>\n            <property name="dataSource">Test Data Source</property>\n            <list-property name="resultSet">\n                <structure>\n                    <property name="position">1</property>\n                    <property name="name">testint</property>\n                    <property name="nativeName">testint</property>\n                    <property name="dataType">integer</property>\n                </structure>\n                <structure>\n                    <property name="position">2</property>\n                    <property name="name">testtext</property>\n                    <property name="nativeName">testtext</property>\n                    <property name="dataType">string</property>\n                </structure>\n            </list-property>\n            <xml-property name="queryText"><![CDATA[select *\nfrom testtable;]]></xml-property>\n            <xml-property name="designerValues"><![CDATA[]]></xml-property>\n        </oda-data-set>\n    </data-sets>\n    <page-setup>\n        <simple-master-page name="Simple MasterPage" id="2">\n            <page-footer>\n                <text id="3">\n                    <property name="contentType">html</property>\n                    <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>\n                </text>\n            </page-footer>\n        </simple-master-page>\n    </page-setup>\n    <body>\n        <label id="4">\n            <property name="fontFamily">"Sans"</property>\n            <property name="fontSize">18pt</property>\n            <property name="fontWeight">bold</property>\n            <text-property name="text">Installation test report</text-property>\n        </label>\n        <label id="7">\n            <text-property name="text">This table should contain two columns</text-property>\n        </label>\n        <table id="8">\n            <property name="borderBottomStyle">none</property>\n            <property name="borderLeftStyle">none</property>\n            <property name="borderRightStyle">none</property>\n            <property name="borderTopStyle">none</property>\n            <property name="width">6.270833333333333in</property>\n            <property name="dataSet">Test Data Set</property>\n            <list-property name="boundDataColumns">\n                <structure>\n                    <property name="name">testint</property>\n                    <text-property name="displayName">testint</text-property>\n                    <expression name="expression" type="javascript">dataSetRow["testint"]</expression>\n                    <property name="dataType">integer</property>\n                </structure>\n                <structure>\n                    <property name="name">testtext</property>\n                    <text-property name="displayName">testtext</text-property>\n                    <expression name="expression" type="javascript">dataSetRow["testtext"]</expression>\n                    <property name="dataType">string</property>\n                </structure>\n            </list-property>\n            <column id="22">\n                <property name="width">2.3541666666666665in</property>\n            </column>\n            <column id="23">\n                <property name="width">3.6458333333333335in</property>\n            </column>\n            <header>\n                <row id="9">\n                    <property name="backgroundColor">#3F55BF</property>\n                    <property name="borderBottomStyle">none</property>\n                    <property name="borderLeftStyle">none</property>\n                    <property name="borderRightStyle">none</property>\n                    <property name="borderTopStyle">none</property>\n                    <cell id="10">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <label id="11">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="textAlign">left</property>\n                            <text-property name="text">Integer</text-property>\n                        </label>\n                    </cell>\n                    <cell id="12">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <label id="13">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="textAlign">left</property>\n                            <text-property name="text">Text</text-property>\n                        </label>\n                    </cell>\n                </row>\n            </header>\n            <detail>\n                <row id="14">\n                    <cell id="15">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <data id="16">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="resultSetColumn">testint</property>\n                        </data>\n                    </cell>\n                    <cell id="17">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <data id="18">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="resultSetColumn">testtext</property>\n                        </data>\n                    </cell>\n                </row>\n            </detail>\n        </table>\n    </body>\n</report>\n	installation_test_report.rptdesign
 5072	5189	2	\N	\N
+5763	5764	0	<?xml version="1.0" encoding="UTF-8"?>\n<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">\n    <property name="createdBy">Eclipse BIRT Designer Version 4.7.0.v201706222054</property>\n    <property name="units">in</property>\n    <property name="iconFile">/templates/blank_report.gif</property>\n    <property name="bidiLayoutOrientation">ltr</property>\n    <property name="imageDPI">96</property>\n    <data-sources>\n        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Test Data Source" id="5">\n            <list-property name="privateDriverProperties">\n                <ex-property>\n                    <name>metadataBidiFormatStr</name>\n                    <value>ILYNN</value>\n                </ex-property>\n                <ex-property>\n                    <name>disabledMetadataBidiFormatStr</name>\n                </ex-property>\n                <ex-property>\n                    <name>contentBidiFormatStr</name>\n                    <value>ILYNN</value>\n                </ex-property>\n                <ex-property>\n                    <name>disabledContentBidiFormatStr</name>\n                </ex-property>\n            </list-property>\n            <property name="odaDriverClass">org.postgresql.Driver</property>\n            <property name="odaURL">jdbc:postgresql://127.0.0.1:5432/testbase</property>\n            <property name="odaUser">testuser</property>\n            <encrypted-property name="odaPassword" encryptionID="base64">c2VjcmV0</encrypted-property>\n        </oda-data-source>\n    </data-sources>\n    <data-sets>\n        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Test Data Set" id="6">\n            <structure name="cachedMetaData">\n                <list-property name="resultSet">\n                    <structure>\n                        <property name="position">1</property>\n                        <property name="name">testint</property>\n                        <property name="dataType">integer</property>\n                    </structure>\n                    <structure>\n                        <property name="position">2</property>\n                        <property name="name">testtext</property>\n                        <property name="dataType">string</property>\n                    </structure>\n                </list-property>\n            </structure>\n            <property name="dataSource">Test Data Source</property>\n            <list-property name="resultSet">\n                <structure>\n                    <property name="position">1</property>\n                    <property name="name">testint</property>\n                    <property name="nativeName">testint</property>\n                    <property name="dataType">integer</property>\n                </structure>\n                <structure>\n                    <property name="position">2</property>\n                    <property name="name">testtext</property>\n                    <property name="nativeName">testtext</property>\n                    <property name="dataType">string</property>\n                </structure>\n            </list-property>\n            <xml-property name="queryText"><![CDATA[select *\nfrom testtable;]]></xml-property>\n            <xml-property name="designerValues"><![CDATA[]]></xml-property>\n        </oda-data-set>\n    </data-sets>\n    <page-setup>\n        <simple-master-page name="Simple MasterPage" id="2"/>\n    </page-setup>\n    <body>\n        <label id="4">\n            <property name="fontFamily">"Sans"</property>\n            <property name="fontSize">18pt</property>\n            <property name="fontWeight">bold</property>\n            <text-property name="text">Installation test report</text-property>\n        </label>\n        <label id="7">\n            <text-property name="text">This table should contain two columns</text-property>\n        </label>\n        <table id="8">\n            <property name="borderBottomStyle">none</property>\n            <property name="borderLeftStyle">none</property>\n            <property name="borderRightStyle">none</property>\n            <property name="borderTopStyle">none</property>\n            <property name="width">6.270833333333333in</property>\n            <property name="dataSet">Test Data Set</property>\n            <list-property name="boundDataColumns">\n                <structure>\n                    <property name="name">testint</property>\n                    <text-property name="displayName">testint</text-property>\n                    <expression name="expression" type="javascript">dataSetRow["testint"]</expression>\n                    <property name="dataType">integer</property>\n                </structure>\n                <structure>\n                    <property name="name">testtext</property>\n                    <text-property name="displayName">testtext</text-property>\n                    <expression name="expression" type="javascript">dataSetRow["testtext"]</expression>\n                    <property name="dataType">string</property>\n                </structure>\n            </list-property>\n            <column id="22">\n                <property name="width">2.3541666666666665in</property>\n            </column>\n            <column id="23">\n                <property name="width">3.6458333333333335in</property>\n            </column>\n            <header>\n                <row id="9">\n                    <property name="backgroundColor">#3F55BF</property>\n                    <property name="borderBottomStyle">none</property>\n                    <property name="borderLeftStyle">none</property>\n                    <property name="borderRightStyle">none</property>\n                    <property name="borderTopStyle">none</property>\n                    <cell id="10">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <label id="11">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="textAlign">left</property>\n                            <text-property name="text">Integer</text-property>\n                        </label>\n                    </cell>\n                    <cell id="12">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <label id="13">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="textAlign">left</property>\n                            <text-property name="text">Text</text-property>\n                        </label>\n                    </cell>\n                </row>\n            </header>\n            <detail>\n                <row id="14">\n                    <cell id="15">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <data id="16">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="resultSetColumn">testint</property>\n                        </data>\n                    </cell>\n                    <cell id="17">\n                        <property name="borderBottomStyle">solid</property>\n                        <property name="borderBottomWidth">medium</property>\n                        <property name="borderLeftStyle">solid</property>\n                        <property name="borderLeftWidth">medium</property>\n                        <property name="borderRightStyle">solid</property>\n                        <property name="borderRightWidth">medium</property>\n                        <property name="borderTopStyle">solid</property>\n                        <property name="borderTopWidth">medium</property>\n                        <data id="18">\n                            <property name="borderBottomStyle">none</property>\n                            <property name="borderLeftStyle">none</property>\n                            <property name="borderRightStyle">none</property>\n                            <property name="borderTopStyle">none</property>\n                            <property name="resultSetColumn">testtext</property>\n                        </data>\n                    </cell>\n                </row>\n            </detail>\n        </table>\n    </body>\n</report>\n	installation_test_report.rptdesign
+5188	5764	2	\N	\N
 \.
 
 
@@ -13543,7 +14211,7 @@ COPY public.rs_headline_param_inst_a (id, rev) FROM stdin;
 --
 
 COPY public.rs_hibernate_sequence (next_val) FROM stdin;
-5343
+6010
 \.
 
 
@@ -14008,6 +14676,7 @@ COPY public.rs_report_a (id, rev, description, key_field, name_field, uuid, data
 3802	5040	Report used to validate the installation	installation_test_report	Installation test report	9f07835c-4b44-4b2c-b7ab-fb9134ed9841	3803	\N
 3802	5073	Report used to validate the installation	installation_test_report	Installation test report	9f07835c-4b44-4b2c-b7ab-fb9134ed9841	3803	\N
 3802	5189	Report used to validate the installation	installation_test_report	Installation test report	9f07835c-4b44-4b2c-b7ab-fb9134ed9841	3803	\N
+3802	5764	Report used to validate the installation	installation_test_report	Installation test report	9f07835c-4b44-4b2c-b7ab-fb9134ed9841	3803	\N
 \.
 
 
@@ -14078,7 +14747,7 @@ COPY public.rs_report_mngr_node (entity_id, created_on, flags, last_updated, "po
 56	2018-09-18 16:35:17.356	0	2018-09-18 16:35:17.362	0	0	55	\N	\N
 8	2018-09-18 16:35:15.816	0	2018-09-18 16:35:46.216	0	1	\N	3016	\N
 3787	2018-09-18 16:47:06.649	0	2018-09-18 16:47:13.135	1	1	8	\N	6
-3802	2018-09-18 16:47:18.641	0	2018-09-18 16:47:18.687	0	6	3787	4011	6
+3802	2018-09-18 16:47:18.641	0	2018-09-18 16:47:18.687	0	7	3787	4011	6
 \.
 
 
@@ -14100,6 +14769,7 @@ COPY public.rs_report_mngr_node_a (entity_id, rev, revtype, created_on, flags, l
 3802	5040	1	2018-09-18 16:47:18.641	0	2018-09-18 16:47:18.687	3787	4011	6
 3802	5073	1	2018-09-18 16:47:18.641	0	2018-09-18 16:47:18.687	3787	4011	6
 3802	5189	1	2018-09-18 16:47:18.641	0	2018-09-18 16:47:18.687	3787	4011	6
+3802	5764	1	2018-09-18 16:47:18.641	0	2018-09-18 16:47:18.687	3787	4011	6
 \.
 
 
@@ -14199,6 +14869,7 @@ COPY public.rs_revision (entity_id, "timestamp", user_id) FROM stdin;
 5040	1537363455113	6
 5073	1537363544169	6
 5189	1537365234704	6
+5764	1537809087359	6
 \.
 
 
