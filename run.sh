@@ -32,7 +32,7 @@ SQL="SELECT value FROM rs_schemainfo WHERE key_field='version'"
 echo "Waiting for PostgreSQL ..."
 while [[ -z "${PG}" && "${ATTEMPTS}" -lt "${MAX_ATTEMPTS}" ]]; do
     sleep 1
-    PG=$((psql --username="${RS_DB_USER}" --host="${RS_DB_HOST}" --dbname="${RS_DB_NAME}" -w -t -c "${SQL}" 2>&1 | grep "RS3") || echo "")
+    PG=$( (psql --username="${RS_DB_USER}" --host="${RS_DB_HOST}" --dbname="${RS_DB_NAME}" -w -t -c "${SQL}" 2>&1 | grep "RS3") || echo "")
     let ATTEMPTS+=1
 done
 
