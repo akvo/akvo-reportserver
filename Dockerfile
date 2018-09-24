@@ -4,7 +4,7 @@ ARG VERSION=RS3.0.4-6004-2018-08-27-10-01-33-reportserver-ce
 
 WORKDIR /tmp
 
-RUN set -ex; \
+RUN set -eux; \
     apt-get update && \
     apt-get install -y --no-install-recommends \
     unzip=6.0-21 && \
@@ -16,6 +16,13 @@ RUN set -ex; \
     find /tmp/rs -name '.DS_Store' -exec rm -rf {} \;
 
 FROM tomcat:7-jre8
+
+RUN set -eux; \
+    apt-get update && \
+    apt-get install -y --no-install-recommends \
+    postgresql-client-9.6=9.6.9-0+deb9u1 && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 COPY --from=downloader /tmp/rs "${CATALINA_HOME}/webapps/reportserver/"
 

@@ -21,8 +21,27 @@ sed -i \
     -e "s|^# hibernate.connection.url=jdbc:postgresql://localhost/reportserver|hibernate.connection.url=jdbc:postgresql://${RS_DB_HOST}/${RS_DB_NAME}|" \
     /opt/reportserver/persistence.properties
 
-echo "Waiting 20s..."
-sleep 20 # temp workaround
+## Waiting for PostgreSQL
+export PGPASSWORD="${RS_DB_PASSWORD}"
+
+MAX_ATTEMPTS=120
+ATTEMPTS=0
+PG=""
+SQL="SELECT value FROM rs_schemainfo WHERE key_field='version'"
+
+echo "Waiting for PostgreSQL ..."
+while [[ -z "${PG}" && "${ATTEMPTS}" -lt "${MAX_ATTEMPTS}" ]]; do
+    sleep 1
+    PG=$((psql --username="${RS_DB_USER}" --host="${RS_DB_HOST}" --dbname="${RS_DB_NAME}" -w -t -c "${SQL}" 2>&1 | grep "RS3") || echo "")
+    let ATTEMPTS+=1
+done
+
+if [[ -z "${PG}" ]]; then
+    echo "PostgreSQL is not available"
+    exit 1
+fi
+
+echo "PostgreSQL is ready!"
 
 # $CATALINA_HOME/bin is in $PATH
 catalina.sh run
