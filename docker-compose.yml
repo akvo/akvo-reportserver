@@ -2,6 +2,8 @@ version: "3"
 services:
   db:
     image: postgres:9.6
+    ports:
+      - "5432:5432"
     environment:
       - POSTGRES_USER=reportserver
       - POSTGRES_PASSWORD=reportserver
@@ -14,6 +16,11 @@ services:
     build: .
     ports:
       - "8080:8080"
+    environment:
+      - RS_DB_USER=reportserver
+      - RS_DB_PASSWORD=reportserver
+      - RS_DB_NAME=reportserver
+      - RS_DB_HOST=db
     depends_on:
       - db
     command: /opt/run.sh

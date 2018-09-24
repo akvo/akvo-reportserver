@@ -6,9 +6,9 @@ WORKDIR /tmp
 
 RUN set -ex; \
     apt-get update && apt-get install -y --no-install-recommends unzip && \
-    curl --location --output rs.zip \
+    curl --retry 3 --location --output rs.zip \
     "https://sourceforge.net/projects/dw-rs/files/bin/3.0/${VERSION}.zip/download" && \
-    unzip rs.zip -d rs && \
+    unzip -q rs.zip -d rs && \
     rm -rf rs.zip && \
     rm -rf /tmp/rs/__MACOSX && \
     find /tmp/rs -name '.DS_Store' | xargs rm -rf
