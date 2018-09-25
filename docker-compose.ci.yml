@@ -7,3 +7,8 @@ services:
     command: /opt/run.sh
     volumes:
       - /tmp/reportserver:/tmp
+  test:
+    build: test
+    command: tail -f /dev/null
+    volumes:
+      - /tmp/reportserver:/tmp

@@ -20,5 +20,6 @@ if [[ -z "${RS}" ]]; then
     exit 1
 fi
 
-docker-compose exec report-server curl -o /tmp/test-report.pdf "${URL}"
-#docker-compose exec md5sum -c /tmp/test-report.pdf
+docker-compose -f docker-compose.yml -f docker-compose.ci.yml exec report-server curl -o /tmp/test-report.pdf "${URL}"
+
+docker-compose -f docker-compose.yml -f docker-compose.ci.yml exec test pdfgrep foobar /tmp/test-report.pdf
