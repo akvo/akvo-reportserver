@@ -12,9 +12,7 @@ echo "Waiting for ReportServer ..."
 while [[ -z "${rs}" && "${attempts}" -lt "${max_attempts}" ]]; do
     sleep 1
     rs=$( (docker-compose logs --no-color report-server 2>&1 | grep -i "LateInitStartup - Startup completed") || echo "")
-    echo "${attempts}"
     (( attempts++ )) || :
-    echo "${attempts}"
 done
 
 if [[ -z "${rs}" ]]; then
