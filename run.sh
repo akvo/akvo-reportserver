@@ -21,6 +21,14 @@ sed -i \
     -e "s|^# hibernate.connection.url=jdbc:postgresql://localhost/reportserver|hibernate.connection.url=jdbc:postgresql://${RS_DB_HOST}/${RS_DB_NAME}|" \
     /opt/reportserver/persistence.properties
 
+#modify reportserver.properties
+sed -i \
+    -e "s|^    rs.crypto.pbe.salt = The salt to be used for encryption. This should simply be a long string.|rs.crypto.pbe.salt=${RS_PBE_SALT}|" \
+    -e "s|^    rs.crypto.pbe.passphrase = The Passphrase|rs.crypto.pbe.passphrase=${RS_PBE_PASSPHRASE}|" \
+    -e "s|^    rs.crypto.passwordhasher.hmac.passphrase = This is the Passphrase used to compute the HMAC key for reportServer passwords.|rs.crypto.passwordhasher.hmac.passphrase=${RS_HMAC_PASSPHRASE}|" \
+    /opt/reportserver/reportserver.properties
+
+
 ## Waiting for PostgreSQL
 export PGPASSWORD="${RS_DB_PASSWORD}"
 
