@@ -4,5 +4,6 @@ services:
     ports:
       - "5432:5432"
   report-server:
+    build: .
     ports:
       - "8080:8080"

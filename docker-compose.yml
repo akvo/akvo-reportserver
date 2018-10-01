@@ -9,7 +9,6 @@ services:
     volumes:
       - ./schema:/docker-entrypoint-initdb.d:ro
   report-server:
-    build: .
     environment:
       - RS_DB_USER=reportserver
       - RS_DB_PASSWORD=reportserver
