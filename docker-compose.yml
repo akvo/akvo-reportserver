@@ -14,6 +14,9 @@ services:
       - RS_DB_PASSWORD=reportserver
       - RS_DB_NAME=reportserver
       - RS_DB_HOST=db
+      - RS_PBE_SALT=The salt to be used for encryption. This should simply be a long string.
+      - RS_PBE_PASSPHRASE=The Passphrase
+      - RS_HMAC_PASSPHRASE=This is the Passphrase used to compute the HMAC key for reportServer passwords.
     depends_on:
       - db
     command: /opt/run.sh
