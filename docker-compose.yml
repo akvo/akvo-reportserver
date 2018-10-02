@@ -19,4 +19,3 @@ services:
       - RS_HMAC_PASSPHRASE=This is the Passphrase used to compute the HMAC key for reportServer passwords.
     depends_on:
       - db
-    command: /opt/run.sh

@@ -29,3 +29,5 @@ RUN set -eux; \
 COPY --from=downloader /tmp/rs "${CATALINA_HOME}/webapps/reportserver/"
 
 COPY run.sh /opt/run.sh
+
+CMD ["/opt/run.sh"]
