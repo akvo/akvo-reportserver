@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: reportserver
-        image: akvo/akvo-reportserver:5ef68181
+        image: akvo/akvo-reportserver:25bca68a
         ports:
         - containerPort: 8080
         env:
@@ -50,4 +50,3 @@ spec:
             secretKeyRef:
               name: reportserver
               key: rs_hmac_passphrase
-
