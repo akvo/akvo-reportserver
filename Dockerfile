@@ -26,7 +26,7 @@ RUN set -eux; \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-COPY --from=downloader /tmp/rs "${CATALINA_HOME}/webapps/reportserver/"
+COPY --from=downloader /tmp/rs "${CATALINA_HOME}/webapps/ROOT/"
 
 COPY run.sh /opt/run.sh
 
