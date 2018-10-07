@@ -9,9 +9,9 @@ mkdir -p /opt/reportserver
 mkdir -p /opt/reportserver/lib
 mkdir -p /opt/reportserver/config
 
-cp "${CATALINA_HOME}/webapps/reportserver/WEB-INF/classes/persistence.properties.example" /opt/reportserver/persistence.properties
-cp "${CATALINA_HOME}/webapps/reportserver/WEB-INF/classes/reportserver.properties" /opt/reportserver/reportserver.properties
-cp "${CATALINA_HOME}/webapps/reportserver/WEB-INF/classes/logging-rs.properties" /opt/reportserver/logging-rs.properties
+cp "${CATALINA_HOME}/webapps/ROOT/WEB-INF/classes/persistence.properties.example" /opt/reportserver/persistence.properties
+cp "${CATALINA_HOME}/webapps/ROOT/WEB-INF/classes/reportserver.properties" /opt/reportserver/reportserver.properties
+cp "${CATALINA_HOME}/webapps/ROOT/WEB-INF/classes/logging-rs.properties" /opt/reportserver/logging-rs.properties
 
 sed -i \
     -e "s|^# hibernate.connection.username=root|hibernate.connection.username=${RS_DB_USER}|" \

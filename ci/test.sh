@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-url="http://127.0.01:8080/reportserver/reportserver/httpauthexport?key=installation_test_report&user=testuser&apikey=TEST_API_KEY&format=PDF"
+url="http://127.0.01:8080/reportserver/httpauthexport?key=installation_test_report&user=testuser&apikey=TEST_API_KEY&format=PDF"
 
 max_attempts=120
 attempts=0
