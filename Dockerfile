@@ -24,7 +24,8 @@ RUN set -eux; \
     apt-get install -y --no-install-recommends \
     postgresql-client-9.6=9.6.9-0+deb9u1 && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* && \
+    bash -c "rm -rf ${CATALINA_HOME}/webapps/{docs,examples,host-manager,manager}"
 
 COPY --from=downloader /tmp/rs "${CATALINA_HOME}/webapps/ROOT/"
 
