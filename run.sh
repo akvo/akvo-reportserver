@@ -18,7 +18,7 @@ sed -i \
     -e "s|^# hibernate.connection.password=root|hibernate.connection.password=${RS_DB_PASSWORD}|" \
     -e "s|^# hibernate.dialect=net.datenwerke.rs.utils.hibernate.PostgreSQLDialect|hibernate.dialect=net.datenwerke.rs.utils.hibernate.PostgreSQLDialect|" \
     -e "s|^# hibernate.connection.driver_class=org.postgresql.Driver|hibernate.connection.driver_class=org.postgresql.Driver|" \
-    -e "s|^# hibernate.connection.url=jdbc:postgresql://localhost/reportserver|hibernate.connection.url=jdbc:postgresql://${RS_DB_HOST}/${RS_DB_NAME}|" \
+    -e "s|^# hibernate.connection.url=jdbc:postgresql://localhost/reportserver|hibernate.connection.url=jdbc:postgresql://${RS_DB_HOST}/${RS_DB_NAME}?ssl=true|" \
     /opt/reportserver/persistence.properties
 
 #modify reportserver.properties
