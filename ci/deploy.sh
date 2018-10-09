@@ -2,6 +2,14 @@
 
 set -eu -o pipefail
 
+if [[ "${TRAVIS_BRANCH}" != "develop" ]] && [[ "${TRAVIS_BRANCH}" != "master" ]]; then
+    exit 0
+fi
+
+if [[ "${TRAVIS_PULL_REQUEST}" != "false" ]]; then
+    exit 0
+fi
+
 # Decrypt credentials
 openssl aes-256-cbc -K "$encrypted_c6d1d2b426b8_key" \
 	-iv "$encrypted_c6d1d2b426b8_iv" \
