@@ -57,5 +57,13 @@ fi
 
 echo "PostgreSQL is ready!"
 
+#Fetch any exta fonts
+if [ ! -z ${RS_EXTRA_FONT_URL+x} ]; then
+    echo "Fetching extra fonts"
+    curl --retry 3 --location --output /tmp/extrafonts.zip "${RS_EXTRA_FONT_URL}"
+    unzip /tmp/extrafonts.zip -d /usr/share/fonts/default/TrueType/
+    rm /tmp/extrafonts.zip
+fi
+
 # $CATALINA_HOME/bin is in $PATH
 catalina.sh run

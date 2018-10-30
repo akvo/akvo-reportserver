@@ -50,3 +50,8 @@ spec:
             secretKeyRef:
               name: reportserver
               key: rs_hmac_passphrase
+        - name: RS_EXTRA_FONT_URL
+          valueFrom:
+            secretKeyRef:
+              name: reportserver
+              key: rs_extra_font_url
