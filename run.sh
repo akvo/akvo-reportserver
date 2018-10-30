@@ -61,7 +61,8 @@ echo "PostgreSQL is ready!"
 if [ ! -z ${RS_EXTRA_FONT_URL+x} ]; then
     echo "Fetching extra fonts"
     curl --retry 3 --location --output /tmp/extrafonts.zip "${RS_EXTRA_FONT_URL}"
-    unzip /tmp/extrafonts.zip -d /usr/share/fonts/default/TrueType/
+    unzip /tmp/extrafonts.zip -d /usr/share/fonts/truetype/
+    fc-cache -f -v
     rm /tmp/extrafonts.zip
 fi
 
