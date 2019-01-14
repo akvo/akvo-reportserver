@@ -2,6 +2,10 @@
 
 set -eu -o pipefail
 
+function log {
+   echo "$(date +"%T") - BUILD INFO - $*"
+}
+
 if [[ "${TRAVIS_BRANCH}" != "develop" ]] && [[ "${TRAVIS_BRANCH}" != "master" ]]; then
     exit 0
 fi
@@ -22,10 +26,8 @@ gcloud components update
 gcloud version
 command -v gcloud kubectl
 
-TAG="${TRAVIS_COMMIT:0:8}"
-
 docker login -u="${DOCKERHUB_USERNAME}" -p="${DOCKERHUB_PASSWORD}"
-docker push "akvo/akvo-reportserver:${TAG}"
+docker push "akvo/akvo-reportserver"
 
 # Activate service account / set project
 gcloud auth activate-service-account --key-file ci/gcloud-service-account.json
@@ -34,9 +36,14 @@ gcloud config set container/cluster europe-west1-d
 gcloud config set compute/zone europe-west1-d
 gcloud config set container/use_client_certificate True
 
-# TODO develop/master -> test/production
-gcloud container clusters get-credentials test
+if [[ "${TRAVIS_BRANCH}" == "master" ]]; then
+    log Environment is production
+    gcloud container clusters get-credentials production
+else
+    log Environement is test
+    gcloud container clusters get-credentials test
+fi
 
 # Update deployment
-sed -i "s|akvo/akvo-reportserver:latest|akvo/akvo-reportserver:${TAG}|" ci/k8s/deployment.yaml
-kubectl apply -f ci/k8s/deployment.yaml
+sed -e "s/\${TRAVIS_COMMIT}/$TRAVIS_COMMIT/" ci/k8s/deployment.yml > deployment.yml.tmp
+kubectl apply -f deployment.yaml.tmp
