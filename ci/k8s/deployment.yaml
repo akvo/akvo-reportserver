@@ -4,16 +4,26 @@ metadata:
   name: reportserver
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      run: reportserver
   template:
     metadata:
       labels:
         run: reportserver
+        akvo-report-server-version: $TRAVIS_COMMIT
+        app: reportserver
     spec:
       containers:
       - name: reportserver
-        image: akvo/akvo-reportserver:latest
+        image: akvo/akvo-reportserver:$TRAVIS_COMMIT
         ports:
         - containerPort: 8080
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 3000
+          initialDelaySeconds: 180
         env:
         - name: RS_DB_USER
           valueFrom:
