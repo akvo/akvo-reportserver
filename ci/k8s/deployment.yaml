@@ -11,12 +11,12 @@ spec:
     metadata:
       labels:
         run: reportserver
-        akvo-report-server-version: $TRAVIS_COMMIT
+        akvo-report-server-version: ${TRAVIS_COMMIT}
         app: reportserver
     spec:
       containers:
       - name: reportserver
-        image: akvo/akvo-reportserver:$TRAVIS_COMMIT
+        image: akvo/akvo-reportserver:${TRAVIS_COMMIT}
         ports:
         - containerPort: 8080
         livenessProbe:
