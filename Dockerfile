@@ -22,7 +22,7 @@ FROM tomcat:7-jre8
 RUN set -eux; \
     apt-get update && \
     apt-get install -y --no-install-recommends \
-    postgresql-client-9.6=9.6.9-0+deb9u1 && \
+    postgresql-client-9.6 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     bash -c "rm -rf ${CATALINA_HOME}/webapps/{docs,examples,host-manager,manager}"
