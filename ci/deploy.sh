@@ -45,5 +45,5 @@ else
 fi
 
 # Update deployment
-sed -e "s/\${TRAVIS_COMMIT}/$TRAVIS_COMMIT/" ci/k8s/deployment.yml > deployment.yml.tmp
+sed -e "s/\${TRAVIS_COMMIT}/$TRAVIS_COMMIT/" ci/k8s/deployment.yaml > deployment.yml.tmp
 kubectl apply -f deployment.yaml.tmp
