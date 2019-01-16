@@ -21,8 +21,8 @@ spec:
         - containerPort: 8080
         livenessProbe:
           httpGet:
-            path: /healthz
-            port: 3000
+            path: /
+            port: 8080
           initialDelaySeconds: 180
         env:
         - name: RS_DB_USER
