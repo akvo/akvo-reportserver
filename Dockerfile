@@ -8,7 +8,7 @@ WORKDIR /tmp
 RUN set -eux; \
     apt-get update && \
     apt-get install -y --no-install-recommends \
-    unzip=6.0-21 && \
+    unzip && \
     curl --retry 3 --location --output rs.zip \
     "https://sourceforge.net/projects/dw-rs/files/bin/3.0/${VERSION}.zip/download" && \
     echo "${SHA256}" rs.zip | sha256sum -c && \
