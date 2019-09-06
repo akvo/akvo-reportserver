@@ -22,7 +22,7 @@ sed -i \
     /opt/reportserver/persistence.properties
 
 # Adds ssl param when not in dev mode pg host is `db`
-if [[ "${RS_DB_HOST}" != "db" ]]; then
+if [[ "${DISABLE_SSL_DB_CONNECTION:-no}" != "yes" ]]; then
     sed -i "/^hibernate.connection.url/ s|$|?ssl=true|" /opt/reportserver/persistence.properties
     export PGSSLMODE="require"
 fi
