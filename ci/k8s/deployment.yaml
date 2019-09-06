@@ -24,6 +24,11 @@ spec:
             path: /
             port: 8080
           initialDelaySeconds: 180
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 8080
+          initialDelaySeconds: 180
         env:
         - name: RS_DB_USER
           valueFrom:
