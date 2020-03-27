@@ -52,6 +52,7 @@ done
 
 if [[ -z "${pg}" ]]; then
     echo "PostgreSQL is not available"
+    psql --username="${RS_DB_USER}" --host="${RS_DB_HOST}" --dbname="${RS_DB_NAME}" -w -t -c "${sql}"
     exit 1
 fi
 
