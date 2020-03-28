@@ -21,7 +21,6 @@ sed -i \
     -e "s|^# hibernate.connection.url=jdbc:postgresql://localhost/reportserver|hibernate.connection.url=jdbc:postgresql://${RS_DB_HOST}/${RS_DB_NAME}|" \
     /opt/reportserver/persistence.properties
 
-# Adds ssl param when not in dev mode pg host is `db`
 if [[ "${DISABLE_SSL_DB_CONNECTION:-no}" != "yes" ]]; then
     sed -i "/^hibernate.connection.url/ s|$|?ssl=true|" /opt/reportserver/persistence.properties
     export PGSSLMODE="require"
