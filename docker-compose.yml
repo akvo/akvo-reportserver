@@ -10,6 +10,7 @@ services:
       - ./schema:/docker-entrypoint-initdb.d:ro
   report-server:
     environment:
+      - WAIT_FOR_DB=true
       - RS_DB_USER=reportserver
       - RS_DB_PASSWORD=reportserver
       - RS_DB_NAME=reportserver

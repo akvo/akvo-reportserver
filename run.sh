@@ -21,7 +21,6 @@ sed -i \
     -e "s|^# hibernate.connection.url=jdbc:postgresql://localhost/reportserver|hibernate.connection.url=jdbc:postgresql://${RS_DB_HOST}/${RS_DB_NAME}|" \
     /opt/reportserver/persistence.properties
 
-# Adds ssl param when not in dev mode pg host is `db`
 if [[ "${DISABLE_SSL_DB_CONNECTION:-no}" != "yes" ]]; then
     sed -i "/^hibernate.connection.url/ s|$|?ssl=true|" /opt/reportserver/persistence.properties
     export PGSSLMODE="require"
@@ -35,27 +34,30 @@ sed -i \
     /opt/reportserver/reportserver.properties
 
 
-## Waiting for PostgreSQL
-export PGPASSWORD="${RS_DB_PASSWORD}"
+if [[ "${WAIT_FOR_DB:=false}" = "true" ]]; then
+  ## Waiting for PostgreSQL
+  export PGPASSWORD="${RS_DB_PASSWORD}"
 
-max_attempts=120
-attempts=0
-pg=""
-sql="SELECT value FROM rs_schemainfo WHERE key_field='version'"
+  max_attempts=120
+  attempts=0
+  pg=""
+  sql="SELECT value FROM rs_schemainfo WHERE key_field='version'"
 
-echo "Waiting for PostgreSQL ..."
-while [[ -z "${pg}" && "${attempts}" -lt "${max_attempts}" ]]; do
-    sleep 1
-    pg=$( (psql --username="${RS_DB_USER}" --host="${RS_DB_HOST}" --dbname="${RS_DB_NAME}" -w -t -c "${sql}" 2>&1 | grep "RS3") || echo "")
-    (( attempts++ )) || :
-done
+  echo "Waiting for PostgreSQL ..."
+  while [[ -z "${pg}" && "${attempts}" -lt "${max_attempts}" ]]; do
+      sleep 1
+      pg=$( (psql --username="${RS_DB_USER}" --host="${RS_DB_HOST}" --dbname="${RS_DB_NAME}" -w -t -c "${sql}" 2>&1 | grep "RS3") || echo "")
+      (( attempts++ )) || :
+  done
 
-if [[ -z "${pg}" ]]; then
-    echo "PostgreSQL is not available"
-    exit 1
+  if [[ -z "${pg}" ]]; then
+      echo "PostgreSQL is not available"
+      psql --username="${RS_DB_USER}" --host="${RS_DB_HOST}" --dbname="${RS_DB_NAME}" -w -t -c "${sql}"
+      exit 1
+  fi
+
+  echo "PostgreSQL is ready!"
 fi
-
-echo "PostgreSQL is ready!"
 
 #Fetch any exta fonts
 if [[ -n ${RS_EXTRA_FONT_URL+x} ]]; then
