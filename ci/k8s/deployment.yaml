@@ -30,6 +30,8 @@ spec:
             port: 8080
           initialDelaySeconds: 180
         env:
+        - name: WAIT_FOR_DB
+          value: "true"
         - name: DISABLE_SSL_DB_CONNECTION
           value: "yes"
         - name: RS_DB_USER
